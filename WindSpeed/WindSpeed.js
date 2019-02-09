@@ -11,7 +11,7 @@ Category	Wind Speed (mph)
 */
 
 var select = document.querySelector('select');
-var para = document.querySelector('p');
+var para = document.getElementById("para");//var para =document.querySelector('p');
 
 select.addEventListener('change', setWeather);
 
@@ -21,13 +21,13 @@ function setWeather() {
 
     switch (choice) {
         case "1":
-            para.textContent = 'Cat 1';
+            para.innerHTML = 'Cat 1';
             break;
         case "2":
-            para.textContent = 'Cat 2';
+            para.innerHTML = 'Cat 2';
             break;
         case "3":
-            para.textContent = 'Cat 3';
+            para.innerHTML = 'Cat 3';
             break;
         case "4":
             para.textContent = 'Cat 4';
