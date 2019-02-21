@@ -43,17 +43,17 @@ function cube(number) {
 cube(5);
 
 // A single JavaScript statement
-now = new Date();
+const now = new Date();
 
 // Get the current timestamp and print it to the console
-now = new Date(); console.log(now);
+const now = new Date(); console.log(now);
 
 // Two statements separated by newlines
-now = new Date()
+const now = new Date()
 console.log(now)
 
 // Two statements separated by newlines and semicolons
-now = new Date();
+const now = new Date();
 console.log(now);
 
 for (initialization; condition; increment) {

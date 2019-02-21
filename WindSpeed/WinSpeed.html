@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+<body>
+<p>Your Assignment:</p>
+<p>Create a single-page web application which allows the user to select a windspeed and displays the category hurricane associated with that windspeed. Use the following chart for reference:</p>
+<h4><strong>Hurricane wind speed chart</strong></h4>
+<table>
+    <thead>
+    <tr>
+        <th>Category</th>
+        <th>Wind Speed (mph)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>74 - 95</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>96 - 110</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>111 - 130</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>131 - 155</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>155 and above</td>
+    </tr>
+    </tbody>
+</table>
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <tbody></tbody>
+</table>
+
+<label for="weather">Select the wind speed </label>
+<select id="weather">
+    <option value="">--Make a choice--</option>
+    <option value="1">74 - 95</option>
+    <option value="2">96 - 110</option>
+    <option value="3">111 - 130</option>
+    <option value="4">131 - 155</option>
+    <option value="5">155 and above</option>
+</select>
+
+<p id="para"></p>
+
+<script src="WindSpeed.js"></script>
+
+</body>
+
+</html>
