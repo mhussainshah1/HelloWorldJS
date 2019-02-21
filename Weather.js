@@ -9,7 +9,7 @@ function setWeather() {
 
     switch (choice) {
         case 'sunny':
-            document.write('It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.');
+            para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
             break;
         case 'rainy':
             para.textContent = 'Rain is falling outside; take a rain coat and a brolly, and don\'t stay out for too long.';
